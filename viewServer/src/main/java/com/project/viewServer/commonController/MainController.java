@@ -10,4 +10,12 @@ public class MainController {
 	public String root() {
 		return "index";
 	}
+	@RequestMapping("leeIndex")
+	public void lee() {
+		
+	}
+	@RequestMapping("nIndex")
+	public void n() {
+		
+	}
 }
